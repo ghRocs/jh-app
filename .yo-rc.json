@@ -42,6 +42,8 @@
     "clientPackageManager": "npm",
     "clientThemeVariant": "dark",
     "languages": ["zh-cn", "zh-tw", "en"],
-    "prettierJava": true
+    "prettierJava": true,
+    "entities": ["Region", "Country"],
+    "lastLiquibaseTimestamp": 1617798139000
   }
 }

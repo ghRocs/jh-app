@@ -1,0 +1,34 @@
+{
+  "name": "Country",
+  "fields": [
+    {
+      "fieldName": "countryName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "language",
+      "fieldType": "Language",
+      "fieldValues": "FRENCH,ENGLISH,SPANISH"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "region",
+      "otherEntityRelationshipName": "country",
+      "relationshipName": "region",
+      "ownerSide": true
+    }
+  ],
+  "javadoc": "The Country entity.",
+  "entityTableName": "country",
+  "dto": "mapstruct",
+  "pagination": "pagination",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20210407122219"
+}

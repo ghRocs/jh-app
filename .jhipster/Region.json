@@ -1,0 +1,21 @@
+{
+  "name": "Region",
+  "fields": [
+    {
+      "fieldName": "regionName",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [],
+  "javadoc": "The Region entity.\\n@author The JHipster team.",
+  "entityTableName": "region",
+  "dto": "mapstruct",
+  "pagination": "no",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20210407122218"
+}
