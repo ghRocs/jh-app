@@ -2,23 +2,23 @@
   "jhApp": {
     "region": {
       "home": {
-        "title": "Regions",
-        "refreshListLabel": "Refresh list",
-        "createLabel": "创建新 Region",
-        "createOrEditLabel": "创建或编辑 Region",
-        "notFound": "No Regions found"
+        "title": "地区",
+        "refreshListLabel": "刷新列表",
+        "createLabel": "创建新地区",
+        "createOrEditLabel": "创建或编辑地区",
+        "notFound": "没有地区信息"
       },
-      "created": "Region {{ param }} 创建成功",
-      "updated": "Region {{ param }} 更新成功",
-      "deleted": "Region {{ param }} 删除成功",
+      "created": "地区 {{ param }} 创建成功",
+      "updated": "地区 {{ param }} 更新成功",
+      "deleted": "地区 {{ param }} 删除成功",
       "delete": {
-        "question": "你确定要删除 Region {{ id }} 吗？"
+        "question": "你确定要删除地区 {{ id }} 吗？"
       },
       "detail": {
-        "title": "Region"
+        "title": "地区"
       },
       "id": "ID",
-      "regionName": "Region Name"
+      "regionName": "地区名称"
     }
   }
 }
